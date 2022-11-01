@@ -11,7 +11,7 @@ int main()
    add = add * 100;
    num = num + add;
 
-    printf("The rotet number is %d",num);
+    printf("number after right rotation is %d",num);
 
     return 0;
 }
