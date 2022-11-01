@@ -2,14 +2,12 @@
 
 int main()
 {
-    int num,add;
+    int num;
     printf("Enter the number: ");
     scanf("%d",&num);
     
-   add = num % 10; 
-   num = num/10;
-   add = add * 100;
-   num = num + add;
+   num = ((num % 10) * 100) + (num/10); 
+   
 
     printf("number after right rotation is %d",num);
 
